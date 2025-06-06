@@ -9,6 +9,8 @@ console.log("add="+(a+b));
 
 console.log([name,Num,isLoggedIn])
 
+console.log(typeof isLoggedIn)
+
 //undefined it mean value not define like let age;
 
 //primitive datatype
