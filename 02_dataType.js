@@ -3,6 +3,9 @@
 let name ="Piyush" //string
 let Num = 10 //Number 
 let isLoggedIn = false //boolean
+let a=5
+let b= 10
+console.log("add="+(a+b));
 
 console.log([name,Num,isLoggedIn])
 
@@ -14,6 +17,5 @@ console.log([name,Num,isLoggedIn])
 //boolean = true / false
 //null= standalone value
 //symbol = unique
-
 
 
