@@ -25,5 +25,32 @@ let isLoggedIn = 1
 
 let no = 90
 let stringNo = String(no)
-console.log(stringNo);
-console.log(typeof stringNo);
+// console.log(stringNo);
+// console.log(typeof stringNo);
+
+
+// ****************************** Operation ****************************************
+
+let value = 6
+let valueNo = -value;
+// console.log(valueNo);
+
+
+
+// console.log(2**3);
+// console.log(2%3);
+
+let str1="hello"
+let str2=" abc"
+let str3 = str1+str2;
+// console.log(str3)
+
+// console.log("1"+"3");
+// console.log("1"+4+2);
+// console.log(2+2+"1");
+
+console.log( -true );
+console.log( +true );
+console.log( true + false );
+console.log( false );
+console.log( +false );
