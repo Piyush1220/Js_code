@@ -29,20 +29,47 @@ const bigNumber = 7788941421039845621300n;
 // Array, Objects, Functions
 
 const heros = ["Ashok Saraf", "Akashy", "Ajay", "Prabhas" ]
-console.log(heros);
+// console.log(heros);
 
 let myObj = {
     Name: "Mukesh",
     age: 24
 }
-console.log(myObj);
+//console.log(myObj);
 
 const myFunction = function(){
     console.log("Hello World");
 }
 
 //Function calling
- myFunction();
+// myFunction();
 
 
- 
+ // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // Stack (Primitive) , Heap (Non-Primitive)
+
+ let name = "King"
+// stack store the copy of value
+ anothername = name;
+//   console.log(name);
+//   console.log(anothername);
+
+  anothername = "Queen"
+ // console.log("change anothername value")
+//   console.log(name);
+//   console.log(anothername);
+
+
+// Heap store the references of values
+let UserOne = {
+    email : "abc@12gmail.com",
+    upi : "user@yble"
+}
+
+let UserTwo = UserOne;
+
+console.log(UserTwo);
+
+
+
