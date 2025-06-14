@@ -11,4 +11,7 @@ console.log(game.toUpperCase());
 console.log(game);
 console.log( game.slice(0,2));
 
+let ab = "hello Lapy"
+console.log(ab.split('e'));
+
  
